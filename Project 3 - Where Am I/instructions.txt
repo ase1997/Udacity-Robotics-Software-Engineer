@@ -1,0 +1,18 @@
+mkdir project3/catkin_ws/src and git clone the repo
+cd project3/catkin_ws/src
+cd ..
+catkin_make
+source devel/setup.bash
+roslaunch my_robot world.launch
+
+open another terminal
+cd project3/catkin_make
+source devel/setup.bash
+roslaunch my_robot amcl.launch
+
+
+in Rviz if not already then choose 
+	odom for fixed frame
+	add RobotModel
+	add Map (topic/map)
+	add PoseArray (topic/particlecloud)
