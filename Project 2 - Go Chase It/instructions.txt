@@ -1,0 +1,23 @@
+mkdir project2/catkin_ws/src
+cd project2/catkin_ws/src and git clone the repo
+cd ..
+catkin_make
+source devel/setup.bash
+roslaunch my_robot world.launch
+
+
+open another terminal
+cd project2/catkin_ws
+source devel/setup.bash
+roslaunch ball_chaser ball_chaser.launch
+
+open another terminal
+cd project2/catkin_ws
+source devel/setup.bash
+rosrun rqt_image_view rqt_image_view
+
+in Rviz
+select odom for fixed frame
+add RobotModel, Camera (topic: /camera/rgb/image_raw), LaserScan (topic: /scan)
+in Gazebo, move the ball
+
