@@ -1,0 +1,7 @@
+cd project1
+mkdir build && cd build
+cmake ..
+make
+export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/project1/build
+cd world
+gazebo myworld
