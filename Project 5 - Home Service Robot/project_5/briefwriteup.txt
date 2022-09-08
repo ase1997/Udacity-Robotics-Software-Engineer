@@ -1,0 +1,29 @@
+mkdir project5/catkin_ws/src and git clone the repo
+cd project5/catkin_ws/src
+cd ..
+catkin_make
+source devel/setup.bash
+
+ ./launch.sh		// to test launching gazebo and rviz
+
+
+ ./test_slam.sh 	// to test mapping and localization
+			   part of this is to use teleop package to manually drive robot around to create a 2D map for navigation
+
+
+ ./test_navigation 	// to test 2D navigation goal in rviz for autonomous navigation and obstacle avoidance
+			   localization is shown in rviz while robot navigates the environment
+
+
+ ./pick_object		// to test sending robot to two different locations one after the other
+			   this ROS node publishes destinattion coordinates (respected to world frame) to the robot 
+
+
+ ./add_marker		// to test object pickup/drop-off by spawnign a virtual box at one location
+			   once robot navigates to the box, box disappears and re-appears again at when
+			   robot arrives at the destination
+			   this ROS node subcribes to robot's AMCL
+
+
+ ./home_service		// to test the final project: end-to-end autonomous navigation and collision avoidance to pick up 
+			   and drop-off a box
