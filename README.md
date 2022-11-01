@@ -8,39 +8,24 @@
     - The software fundamentals to work on robotics using C++, ROS, and Gazebo
     - How to build autonomous robotics projects in a Gazebo simulation environment
     - Probabilistic robotics, including Localization, Mapping, SLAM, Navigation, and Path Planning
-with five hands-on course projects that demonstrated skills in C++, ROS [1], Gazebo, Rviz, Localization, Mapping, SLAM, Navigation, and Path Planning
+with five hands-on course projects that demonstrated skills in C++, ROS 1, Gazebo, Rviz, Localization, Mapping, SLAM, Navigation, and Path Planning
   
 
 ## Dependencies
-  - Ubuntu Linux 20.04 LTS (Virtual Box on Windows 10)
-  - ROS Neotic 
+  - Ubuntu Linux 20.04 LTS (VMWare on Windows 10)
+  - ROS Kinetic 
   - Python3/C++11 or above
+  - Access to course [here](https://www.udacity.com/course/robotics-software-engineer--nd209)
   
 ## Tasks
-  - Write CMake and launch files to spawn 12 coke cans at random poses and a table at x-y-z (1,0,0) rotated 90 degress about z-axis and its center is at (1,0,1.05) in Gazebo
-
-![ase1997](https://github.com/ase1997/Can-Transformation/blob/main/random_cans.png)
-<p align="center">
-Figure 1. Objects Spawn.
-</p>
-
-  - Write a code to transform 12 coke cans in the following desired poses
-  
-![ase1997](https://github.com/ase1997/Can-Transformation/blob/main/ordered_cans.png)
-<p align="center">
-Figure 2. Desired Outcome.
-</p>
-
-  - Simulate/visualize the process on Gazeboo
-
-## Running Code
-  - open a terminal
-  - `git clone` this repo. to a workspace
-  - `cd` to that workspace and `catkin_make`
-  - `source devel/setup.bash`
-  - `roslaunch robotics_module1a module1.launch`
-  - open another terminal and `source devel/setup.bash`
-  - `rosrun robotics_module1 setup_table_v2 or settup_table`
+  - Complete a series of lecture videos, quizzes, pratices, and projects outlined in the syllabus - total of 6 courses and 5 projects
+  - Complete and pass 5 projects in order to receive the nano degree
+  - The five projects are
+    - [Build My World](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/tree/main/Project%201%20-%20Build%20My%20World)
+    - [Go Chase It](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/tree/main/Project%202%20-%20Go%20Chase%20It)
+    - [Where Am I](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/tree/main/Project%203%20-%20Where%20Am%20I)
+    - [Map My World](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/tree/main/Project%204%20-%20Map%20My%20Wolrd)
+    - [Home Service Robot](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/tree/main/Project%205%20-%20Home%20Service%20Robot)
 
 ## Author
 Khoa Do
