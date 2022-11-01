@@ -13,6 +13,25 @@
   - Import at least one model from the **Gazebo online library** and implement it in the existing Gazebo world
   - Write a C++ **World Plugin** to interact with the world and display **"Welcome to (x)'s World!"**
 
+## Structure 
+Naming might be different 
+```
+    .Project1                          # Build My World Project 
+    ├── model                          # Model files 
+    │   ├── Building
+    │   │   ├── model.config
+    │   │   ├── model.sdf
+    │   ├── HumanoidRobot
+    │   │   ├── model.config
+    │   │   ├── model.sdf
+    ├── script                         # Gazebo World plugin C++ script      
+    │   ├── welcome_message.cpp
+    ├── world                          # Gazebo main World containing models 
+    │   ├── UdacityOffice.world
+    ├── CMakeLists.txt                 # Link libraries 
+    └──                              
+```
+
 ## Running Code
   - Open terminal in Linux \[virtual\] env
   - `sudo apt-get update`
