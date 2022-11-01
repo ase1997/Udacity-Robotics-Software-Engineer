@@ -2,17 +2,22 @@
 
 ## About the Project
   - This project is to use tools leanred in ROS, C++ and Gazebo to build a ball-chasing robot
-  - 
+  - Place the robot in my Gazebo world 
+  - Write C++ ROS node to make the robot chase a white ball
   - Key skilles demonstarted 
-    - Launching a Gazebo environment
-    - Designing in Gazebo
+    - Building Catkin Workspaces
+    - ROS node creation
+    - ROS node communication
+    - Using additional ROS packages
+    - Gazebo world integration
+    - Additional C++ practice
+    - RViz Integration
     
 ## Tasks
-  - Build a single floor wall structure using the **Building Editor** tool in Gazebo
-  - Model any object of choice using the **Model Editor** tool in Gazebo
-  - Import structure and two instances of the model inside an empty Gazebo World
-  - Import at least one model from the **Gazebo online library** and implement it in the existing Gazebo world
-  - Write a C++ **World Plugin** to interact with the world and display **"Welcome to (x)'s World!"**
+  - Create **drive_bot** ROS package
+    - Create **my_robot** ROS package to hold robot, whiet ball, and Gazebo simulation world
+    - Design a differential drive robot with the Unified Robot Description Format with a LiDAR and a camera and add Gazebo plugins
+    - Create a new wrold that is different from [Project 1](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/tree/main/Project%201%20-%20Build%20My%20World)
 
 ## Running Code
   - Open terminal in Linux \[virtual\] env
