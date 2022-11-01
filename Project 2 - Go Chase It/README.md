@@ -74,8 +74,7 @@ Naming might be different
   - `source devel/setup.bash`
   - `rosrun rqt_image_view rqt_image_view`
   
-  - In Rviz, select **odom** for **fixed frame
-  add **RobotModel**, **Camera** (topic: `/camera/rgb/image_raw`), **LaserScan** (topic: `/scan`)
+  - In Rviz, select **odom** for **fixed frame**, add **RobotModel**, **Camera** (topic: `/camera/rgb/image_raw`), **LaserScan** (topic: `/scan`)
 
 ## Results
 Robot and White Ball         |  Robot Chasing White Ball
