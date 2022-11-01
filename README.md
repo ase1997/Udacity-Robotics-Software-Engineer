@@ -8,7 +8,7 @@
     - The software fundamentals to work on robotics using C++, ROS, and Gazebo
     - How to build autonomous robotics projects in a Gazebo simulation environment
     - Probabilistic robotics, including Localization, Mapping, SLAM, Navigation, and Path Planning
-with five hands-on course projects that demonstrated skills in C++, ROS [1], Gazebo, Rviz, Localization, Mapping, SLAM, Navigation, and Path Planning.
+with five hands-on course projects that demonstrated skills in C++, ROS [1], Gazebo, Rviz, Localization, Mapping, SLAM, Navigation, and Path Planning
   
 
 ## Dependencies
