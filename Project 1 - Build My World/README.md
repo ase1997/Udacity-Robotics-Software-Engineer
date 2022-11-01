@@ -27,3 +27,6 @@
   - `gazebo myworld`
 
 ## Results
+Gazebo World         |  Gazebo Robot Model
+:-------------------------:|:-------------------------:
+![](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%201%20-%20Build%20My%20World/pics/pic_1.PNG)  |  ![](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%201%20-%20Build%20My%20World/pics/pic_2.PNG)
