@@ -81,6 +81,6 @@ Naming might be different
   - In Rviz, select **odom** for **fixed frame** add **RobotModel**, **Map** (topic: `/map`), **PoseArray** (topic: `/particlecloud`)
 
 ## Results
-Robot and White Ball         |  Robot Chasing White Ball
+Initial Localization         |  Updated Localization
 :-------------------------:|:-------------------------:
-![](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%202%20-%20Go%20Chase%20It/pics/pic_2.PNG)  |  ![](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%202%20-%20Go%20Chase%20It/pics/pic_3.PNG)
+![](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%203%20-%20Where%20Am%20I/pics/pic_3.PNG)  |  ![]([https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%202%20-%20Go%20Chase%20It/pics/pic_3.PNG](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%203%20-%20Where%20Am%20I/pics/pic_5.PNG))
