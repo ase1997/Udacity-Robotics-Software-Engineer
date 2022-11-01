@@ -2,7 +2,7 @@
 
 ## About the Project
   - This project is to use tools leanred in Gazebo to build my first simulation environment
-  - Key skilles demonstarted 
+  - Key skills demonstrated
     - Launching a Gazebo environment
     - Designing in Gazebo
     
