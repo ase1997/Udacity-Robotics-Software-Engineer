@@ -12,3 +12,18 @@
   - Import structure and two instances of the model inside an empty Gazebo World
   - Import at least one model from the **Gazebo online library** and implement it in the existing Gazebo world
   - Write a C++ **World Plugin** to interact with the world and display **"Welcome to (x)'s World!"**
+
+## Running Code
+  - Open terminal in Linux \[virtual\] env
+  - `sudo apt-get update`
+  - `sudo apt-get upgrade`
+  - `git clone` this repo.
+  - `cd project_1`
+  - `mkdir build && cd build`
+  - `cmake ..`
+  - `make`
+  - `export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/project1/build`
+  - `cd world`
+  - `gazebo myworld`
+
+## Results
