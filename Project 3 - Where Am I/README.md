@@ -10,7 +10,7 @@
 ## Structure
 Naming might be different
 ```
-.project3                                    # Where Am I Project
+.Project3                                    # Where Am I Project
 ├── catkin_ws                                  # Catkin workspace
 │   ├── src
 │   │   ├── ball_chaser                        # ball_chaser package        
