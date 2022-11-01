@@ -4,7 +4,7 @@
   - This project is to use tools leanred in ROS, C++ and Gazebo to build a ball-chasing robot
   - Place the robot in my Gazebo world 
   - Write C++ ROS node to make the robot chase a white ball
-  - Key skilles demonstarted 
+  - Key skills demonstrated
     - Building Catkin Workspaces
     - ROS node creation
     - ROS node communication
