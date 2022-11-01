@@ -56,19 +56,28 @@ Naming might be different
     - Create **ball_chaser.launch** that launches **drive_bot** and **process_image** nodes
 
 ## Running Code
-  - Open terminal in Linux \[virtual\] env
-  - `sudo apt-get update`
-  - `sudo apt-get upgrade`
-  - `git clone` this repo.
-  - `cd project_1`
-  - `mkdir build && cd build`
-  - `cmake ..`
-  - `make`
-  - `export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/project1/build`
-  - `cd world`
-  - `gazebo myworld`
+  - Initialize a ROS workspace `project2/catkin_ws/src`
+  - `cd project2/catkin_ws/src`
+  - `git clone` this repo
+  - `cd ..`
+  - `catkin_make`
+  - `source devel/setup.bash`
+  - `roslaunch my_robot world.launch`
+  
+  - Open second terminal
+  - `cd project2/catkin_ws`
+  - `source devel/setup.bash`
+  - `roslaunch ball_chaser ball_chaser.launch`
+  
+  - Open third terminal
+  - `cd project2/catkin_ws`
+  - `source devel/setup.bash`
+  - `rosrun rqt_image_view rqt_image_view`
+  
+  - In Rviz, select **odom** for **fixed frame
+  add **RobotModel**, **Camera** (topic: `/camera/rgb/image_raw`), **LaserScan** (topic: `/scan`)
 
 ## Results
-Gazebo World         |  Gazebo Robot Model
+Robot and White Ball         |  Robot Chasing White Ball
 :-------------------------:|:-------------------------:
-![](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%201%20-%20Build%20My%20World/pics/pic_1.PNG)  |  ![](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%201%20-%20Build%20My%20World/pics/pic_2.PNG)
+![](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%202%20-%20Go%20Chase%20It/pics/pic_2.PNG)  |  ![](https://github.com/ase1997/Udacity-Robotics-Software-Engineer/blob/main/Project%202%20-%20Go%20Chase%20It/pics/pic_3.PNG)
