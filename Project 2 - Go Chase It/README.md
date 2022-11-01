@@ -14,6 +14,7 @@
     - RViz Integration
 
 ## Structure
+Naming might be different
 ```
     .Project2                          # Go Chase It Project
     ├── my_robot                       # my_robot package                   
